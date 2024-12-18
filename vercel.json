@@ -11,5 +11,9 @@
       "src": "/(.*)",
       "dest": "/"
     }
+    {
+  "source": "/feedback/:id",
+  "destination": "/api/feedback/:id"
+}
   ]
 }
