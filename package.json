@@ -34,8 +34,6 @@
       "dest": "app.js"   
     }
   ]
-  }
-}
   },
   "engines": {
     "node": "22.x"
