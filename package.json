@@ -22,19 +22,6 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-  "builds": [
-    {
-      "src": "app.js", 
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.js"   
-    }
-  ]
-  },
   "engines": {
     "node": "22.x"
   },
@@ -42,4 +29,5 @@
   "license": "ISC",
   "description": "",
   "keywords": []
+}
 }
