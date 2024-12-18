@@ -1,0 +1,232 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm i init
+7 verbose argv "i" "init"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-12-18T16_14_29_466Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-12-18T16_14_29_466Z-debug-0.log
+10 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest init@^0.1.2
+15 silly packumentCache full:https://registry.npmjs.org/init cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/init 1206ms (cache updated)
+17 silly packumentCache full:https://registry.npmjs.org/init set size:undefined disposed:false
+18 silly placeDep ROOT init@0.1.2 REPLACE for: home@1.0.0 want: ^0.1.2
+19 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@netlify/open-api' ]
+20 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@popperjs/core' ]
+21 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/bootstrap' ]
+22 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/data-uri-to-buffer' ]
+23 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fetch-blob' ]
+24 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/formdata-polyfill' ]
+25 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lodash-es' ]
+26 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/micro-api-client' ]
+27 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/netlify' ]
+28 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/node-domexception' ]
+29 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/node-fetch' ]
+30 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/omit.js' ]
+31 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-timeout' ]
+32 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/p-wait-for' ]
+33 silly reify mark retired [
+33 silly reify   '/data/data/com.termux/files/home/node_modules/web-streams-polyfill'
+33 silly reify ]
+34 silly reify moves {
+34 silly reify   '/data/data/com.termux/files/home/node_modules/@netlify/open-api': '/data/data/com.termux/files/home/node_modules/@netlify/.open-api-Wfk0t1Y4',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/@popperjs/core': '/data/data/com.termux/files/home/node_modules/@popperjs/.core-K6nBcPTT',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/bootstrap': '/data/data/com.termux/files/home/node_modules/.bootstrap-au6dIOmO',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/data-uri-to-buffer': '/data/data/com.termux/files/home/node_modules/.data-uri-to-buffer-dUQ0q4XN',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/fetch-blob': '/data/data/com.termux/files/home/node_modules/.fetch-blob-B1tCqrOh',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/formdata-polyfill': '/data/data/com.termux/files/home/node_modules/.formdata-polyfill-vsPV3vEd',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/lodash-es': '/data/data/com.termux/files/home/node_modules/.lodash-es-s97nnIsz',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/micro-api-client': '/data/data/com.termux/files/home/node_modules/.micro-api-client-xZfFqeR3',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/netlify': '/data/data/com.termux/files/home/node_modules/.netlify-oOEbADr3',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/node-domexception': '/data/data/com.termux/files/home/node_modules/.node-domexception-Azhw1buK',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/node-fetch': '/data/data/com.termux/files/home/node_modules/.node-fetch-AhwkFq0N',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/omit.js': '/data/data/com.termux/files/home/node_modules/.omit.js-1RX5pBhB',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/p-timeout': '/data/data/com.termux/files/home/node_modules/.p-timeout-BRXgaQjx',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/p-wait-for': '/data/data/com.termux/files/home/node_modules/.p-wait-for-mu9XziS3',
+34 silly reify   '/data/data/com.termux/files/home/node_modules/web-streams-polyfill': '/data/data/com.termux/files/home/node_modules/.web-streams-polyfill-bugsusaJ'
+34 silly reify }
+35 silly audit bulk request {
+35 silly audit   '@mongodb-js/saslprep': [ '1.1.9' ],
+35 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+35 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+35 silly audit   accepts: [ '1.3.8' ],
+35 silly audit   'ansi-styles': [ '4.3.0' ],
+35 silly audit   anymatch: [ '3.1.3' ],
+35 silly audit   archetype: [ '0.13.1' ],
+35 silly audit   'array-flatten': [ '1.1.1' ],
+35 silly audit   async: [ '3.2.6' ],
+35 silly audit   'balanced-match': [ '1.0.2' ],
+35 silly audit   bcryptjs: [ '2.4.3' ],
+35 silly audit   'binary-extensions': [ '2.3.0' ],
+35 silly audit   'body-parser': [ '1.20.3' ],
+35 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+35 silly audit   braces: [ '3.0.3' ],
+35 silly audit   bson: [ '6.10.1' ],
+35 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+35 silly audit   bytes: [ '3.1.2' ],
+35 silly audit   'call-bind-apply-helpers': [ '1.0.1' ],
+35 silly audit   'call-bound': [ '1.0.3' ],
+35 silly audit   chalk: [ '4.1.2' ],
+35 silly audit   chokidar: [ '3.6.0' ],
+35 silly audit   'color-convert': [ '2.0.1' ],
+35 silly audit   'color-name': [ '1.1.4' ],
+35 silly audit   'concat-map': [ '0.0.1' ],
+35 silly audit   'connect-flash': [ '0.1.1' ],
+35 silly audit   'connect-mongodb-session': [ '5.0.0' ],
+35 silly audit   'content-disposition': [ '0.5.4' ],
+35 silly audit   'content-type': [ '1.0.5' ],
+35 silly audit   cookie: [ '0.7.1', '0.7.2' ],
+35 silly audit   'cookie-signature': [ '1.0.6', '1.0.7' ],
+35 silly audit   daemon: [ '1.1.0' ],
+35 silly audit   debug: [ '2.6.9', '3.1.0', '4.4.0' ],
+35 silly audit   depd: [ '2.0.0' ],
+35 silly audit   destroy: [ '1.2.0' ],
+35 silly audit   dotenv: [ '16.4.7' ],
+35 silly audit   'dunder-proto': [ '1.0.0' ],
+35 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+35 silly audit   'ee-first': [ '1.1.1' ],
+35 silly audit   ejs: [ '3.1.10' ],
+35 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+35 silly audit   'es-define-property': [ '1.0.1' ],
+35 silly audit   'es-errors': [ '1.3.0' ],
+35 silly audit   'es-object-atoms': [ '1.0.0' ],
+35 silly audit   'escape-html': [ '1.0.3' ],
+35 silly audit   etag: [ '1.8.1' ],
+35 silly audit   express: [ '4.21.2' ],
+35 silly audit   'express-rate-limit': [ '7.5.0' ],
+35 silly audit   'express-session': [ '1.18.1' ],
+35 silly audit   filelist: [ '1.0.4' ],
+35 silly audit   minimatch: [ '5.1.6', '3.1.2' ],
+35 silly audit   'fill-range': [ '7.1.1' ],
+35 silly audit   finalhandler: [ '1.3.1' ],
+35 silly audit   forwarded: [ '0.2.0' ],
+35 silly audit   fresh: [ '0.5.2' ],
+35 silly audit   fsevents: [ '2.3.3' ],
+35 silly audit   'function-bind': [ '1.1.2' ],
+35 silly audit   'get-intrinsic': [ '1.2.6' ],
+35 silly audit   'glob-parent': [ '5.1.2' ],
+35 silly audit   gopd: [ '1.2.0' ],
+35 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+35 silly audit   'has-symbols': [ '1.1.0' ],
+35 silly audit   hasown: [ '2.0.2' ],
+35 silly audit   'http-errors': [ '2.0.0' ],
+35 silly audit   'iconv-lite': [ '0.4.24' ],
+35 silly audit   'ignore-by-default': [ '1.0.1' ],
+35 silly audit   inherits: [ '2.0.4' ],
+35 silly audit   'ipaddr.js': [ '1.9.1' ],
+35 silly audit   'is-binary-path': [ '2.1.0' ],
+35 silly audit   'is-extglob': [ '2.1.1' ],
+35 silly audit   'is-glob': [ '4.0.3' ],
+35 silly audit   'is-number': [ '7.0.0' ],
+35 silly audit   jake: [ '10.9.2' ],
+35 silly audit   jsonwebtoken: [ '9.0.2' ],
+35 silly audit   ms: [ '2.1.3', '2.0.0' ],
+35 silly audit   jwa: [ '1.4.1' ],
+35 silly audit   jws: [ '3.2.2' ],
+35 silly audit   kareem: [ '2.6.3' ],
+35 silly audit   lodash: [ '4.17.21' ],
+35 silly audit   'lodash.includes': [ '4.3.0' ],
+35 silly audit   'lodash.isboolean': [ '3.0.3' ],
+35 silly audit   'lodash.isinteger': [ '4.0.4' ],
+35 silly audit   'lodash.isnumber': [ '3.0.3' ],
+35 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+35 silly audit   'lodash.isstring': [ '4.0.1' ],
+35 silly audit   'lodash.once': [ '4.1.1' ],
+35 silly audit   'lodash.sortby': [ '4.7.0' ],
+35 silly audit   'math-intrinsics': [ '1.0.0' ],
+35 silly audit   'media-typer': [ '0.3.0' ],
+35 silly audit   'memory-pager': [ '1.5.0' ],
+35 silly audit   'merge-descriptors': [ '1.0.3' ],
+35 silly audit   'method-override': [ '3.0.0' ],
+35 silly audit   methods: [ '1.1.2' ],
+35 silly audit   mime: [ '1.6.0' ],
+35 silly audit   'mime-db': [ '1.52.0' ],
+35 silly audit   'mime-types': [ '2.1.35' ],
+35 silly audit   mongodb: [ '6.12.0' ],
+35 silly audit   'mongodb-connection-string-url': [ '3.0.1' ],
+35 silly audit   mongoose: [ '8.9.1' ],
+35 silly audit   mpath: [ '0.9.0', '0.8.4' ],
+35 silly audit   mquery: [ '5.0.0' ],
+35 silly audit   negotiator: [ '0.6.3' ],
+35 silly audit   nodemon: [ '3.1.9' ],
+35 silly audit   'supports-color': [ '5.5.0', '7.2.0' ],
+35 silly audit   'normalize-path': [ '3.0.0' ],
+35 silly audit   'object-inspect': [ '1.13.3' ],
+35 silly audit   'on-finished': [ '2.4.1' ],
+35 silly audit   'on-headers': [ '1.0.2' ],
+35 silly audit   parseurl: [ '1.3.3' ],
+35 silly audit   passport: [ '0.7.0' ],
+35 silly audit   'passport-local': [ '1.0.0' ],
+35 silly audit   'passport-strategy': [ '1.0.0' ],
+35 silly audit   'path-to-regexp': [ '0.1.12' ],
+35 silly audit   pause: [ '0.0.1' ],
+35 silly audit   picomatch: [ '2.3.1' ],
+35 silly audit   'proxy-addr': [ '2.0.7' ],
+35 silly audit   'pstree.remy': [ '1.1.8' ],
+35 silly audit   punycode: [ '2.3.1' ],
+35 silly audit   qs: [ '6.13.0' ],
+35 silly audit   'random-bytes': [ '1.0.0' ],
+35 silly audit   'range-parser': [ '1.2.1' ],
+35 silly audit   'raw-body': [ '2.5.2' ],
+35 silly audit   readdirp: [ '3.6.0' ],
+35 silly audit   'safe-buffer': [ '5.2.1' ],
+35 silly audit   'safer-buffer': [ '2.1.2' ],
+35 silly audit   semver: [ '7.6.3' ],
+35 silly audit   send: [ '0.19.0' ],
+35 silly audit   'serve-static': [ '1.16.2' ],
+35 silly audit   setprototypeof: [ '1.2.0' ],
+35 silly audit   'side-channel': [ '1.1.0' ],
+35 silly audit   'side-channel-list': [ '1.0.0' ],
+35 silly audit   'side-channel-map': [ '1.0.1' ],
+35 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+35 silly audit   sift: [ '17.1.3' ],
+35 silly audit   'simple-update-notifier': [ '2.0.0' ],
+35 silly audit   'sparse-bitfield': [ '3.0.3' ],
+35 silly audit   statuses: [ '2.0.1' ],
+35 silly audit   'to-regex-range': [ '5.0.1' ],
+35 silly audit   toidentifier: [ '1.0.1' ],
+35 silly audit   touch: [ '3.1.1' ],
+35 silly audit   tr46: [ '4.1.1', '1.0.1' ],
+35 silly audit   'type-is': [ '1.6.18' ],
+35 silly audit   'uid-safe': [ '2.1.5' ],
+35 silly audit   undefsafe: [ '2.0.5' ],
+35 silly audit   unpipe: [ '1.0.0' ],
+35 silly audit   unpkg: [ '0.2.0' ],
+35 silly audit   'webidl-conversions': [ '4.0.2', '7.0.0' ],
+35 silly audit   'whatwg-url': [ '6.5.0', '13.0.0' ],
+35 silly audit   'utils-merge': [ '1.0.1' ],
+35 silly audit   vary: [ '1.1.2' ],
+35 silly audit   init: [ '0.1.2' ]
+35 silly audit }
+36 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/fsevents
+37 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/fsevents' ]
+38 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 448ms
+39 silly audit report {}
+40 silly ADD
+41 silly REMOVE node_modules/web-streams-polyfill
+42 silly REMOVE node_modules/p-wait-for
+43 silly REMOVE node_modules/p-timeout
+44 silly REMOVE node_modules/omit.js
+45 silly REMOVE node_modules/node-fetch
+46 silly REMOVE node_modules/node-domexception
+47 silly REMOVE node_modules/netlify
+48 silly REMOVE node_modules/micro-api-client
+49 silly REMOVE node_modules/lodash-es
+50 silly REMOVE node_modules/formdata-polyfill
+51 silly REMOVE node_modules/fetch-blob
+52 silly REMOVE node_modules/data-uri-to-buffer
+53 silly REMOVE node_modules/bootstrap
+54 silly REMOVE node_modules/@popperjs/core
+55 silly REMOVE node_modules/@netlify/open-api
+56 verbose cwd /data/data/com.termux/files/home
+57 verbose os Linux 4.14.186+
+58 verbose node v22.9.0
+59 verbose npm  v10.8.3
+60 verbose exit 0
+61 info ok
