@@ -1,0 +1,861 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm i netlify-cli
+7 verbose argv "i" "netlify-cli" "--global"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-12-18T02_03_25_064Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-12-18T02_03_25_064Z-debug-0.log
+10 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest netlify-cli@*
+15 silly packumentCache full:https://registry.npmjs.org/netlify-cli cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/netlify-cli 141ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/netlify-cli set size:10813496 disposed:false
+18 silly placeDep ROOT netlify-cli@17.38.1 OK for:  want: *
+19 silly fetch manifest @bugsnag/js@7.25.0
+20 silly packumentCache full:https://registry.npmjs.org/@bugsnag%2fjs cache-miss
+21 silly fetch manifest @fastify/static@7.0.4
+22 silly packumentCache full:https://registry.npmjs.org/@fastify%2fstatic cache-miss
+23 silly fetch manifest @netlify/blobs@8.1.0
+24 silly packumentCache full:https://registry.npmjs.org/@netlify%2fblobs cache-miss
+25 silly fetch manifest @netlify/build@29.58.0
+26 silly packumentCache full:https://registry.npmjs.org/@netlify%2fbuild cache-miss
+27 silly fetch manifest @netlify/build-info@7.17.0
+28 silly packumentCache full:https://registry.npmjs.org/@netlify%2fbuild-info cache-miss
+29 silly fetch manifest @netlify/config@20.21.0
+30 silly packumentCache full:https://registry.npmjs.org/@netlify%2fconfig cache-miss
+31 silly fetch manifest @netlify/edge-bundler@12.3.1
+32 silly packumentCache full:https://registry.npmjs.org/@netlify%2fedge-bundler cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@fastify%2fstatic 54ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/@fastify%2fstatic set size:152398 disposed:false
+35 silly fetch manifest @netlify/edge-functions@2.11.1
+36 silly packumentCache full:https://registry.npmjs.org/@netlify%2fedge-functions cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@bugsnag%2fjs 71ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/@bugsnag%2fjs set size:429494 disposed:false
+39 silly fetch manifest @netlify/headers-parser@7.3.0
+40 silly packumentCache full:https://registry.npmjs.org/@netlify%2fheaders-parser cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@netlify%2fbuild 95ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/@netlify%2fbuild set size:6118409 disposed:false
+43 silly fetch manifest @netlify/local-functions-proxy@1.1.1
+44 silly packumentCache full:https://registry.npmjs.org/@netlify%2flocal-functions-proxy cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@netlify%2fbuild-info 224ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@netlify%2fbuild-info set size:615103 disposed:false
+47 silly fetch manifest @netlify/redirect-parser@14.5.0
+48 silly packumentCache full:https://registry.npmjs.org/@netlify%2fredirect-parser cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/@netlify%2fconfig 244ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@netlify%2fconfig set size:1679506 disposed:false
+51 silly fetch manifest @netlify/zip-it-and-ship-it@9.42.1
+52 silly packumentCache full:https://registry.npmjs.org/@netlify%2fzip-it-and-ship-it cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@netlify%2fblobs 310ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/@netlify%2fblobs set size:246821 disposed:false
+55 silly fetch manifest @octokit/rest@20.1.1
+56 silly packumentCache full:https://registry.npmjs.org/@octokit%2frest cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@netlify%2fedge-bundler 332ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/@netlify%2fedge-bundler set size:739173 disposed:false
+59 silly fetch manifest @opentelemetry/api@1.8.0
+60 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@netlify%2flocal-functions-proxy 204ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/@netlify%2flocal-functions-proxy set size:19421 disposed:false
+63 silly fetch manifest ansi-escapes@7.0.0
+64 silly packumentCache full:https://registry.npmjs.org/ansi-escapes cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@netlify%2fedge-functions 376ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/@netlify%2fedge-functions set size:62689 disposed:false
+67 silly fetch manifest ansi-styles@6.2.1
+68 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@netlify%2fredirect-parser 210ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/@netlify%2fredirect-parser set size:7629 disposed:false
+71 silly fetch manifest ansi-to-html@0.7.2
+72 silly packumentCache full:https://registry.npmjs.org/ansi-to-html cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@netlify%2fzip-it-and-ship-it 161ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/@netlify%2fzip-it-and-ship-it set size:1715084 disposed:false
+75 silly fetch manifest ascii-table@0.0.9
+76 silly packumentCache full:https://registry.npmjs.org/ascii-table cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@netlify%2fheaders-parser 449ms (cache hit)
+78 silly packumentCache full:https://registry.npmjs.org/@netlify%2fheaders-parser set size:7432 disposed:false
+79 silly fetch manifest backoff@2.5.0
+80 silly packumentCache full:https://registry.npmjs.org/backoff cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 170ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:455622 disposed:false
+83 silly fetch manifest better-opn@3.0.2
+84 silly packumentCache full:https://registry.npmjs.org/better-opn cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@octokit%2frest 227ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/@octokit%2frest set size:1333659 disposed:false
+87 silly fetch manifest boxen@7.1.1
+88 silly packumentCache full:https://registry.npmjs.org/boxen cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/ansi-styles 176ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+91 silly fetch manifest chalk@5.3.0
+92 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/ansi-escapes 189ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/ansi-escapes set size:61494 disposed:false
+95 silly fetch manifest chokidar@3.6.0
+96 silly packumentCache full:https://registry.npmjs.org/chokidar cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/better-opn 82ms (cache hit)
+98 silly packumentCache full:https://registry.npmjs.org/better-opn set size:48876 disposed:false
+99 silly fetch manifest ci-info@4.1.0
+100 silly packumentCache full:https://registry.npmjs.org/ci-info cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/ansi-to-html 178ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/ansi-to-html set size:74792 disposed:false
+103 silly fetch manifest clean-deep@3.4.0
+104 silly packumentCache full:https://registry.npmjs.org/clean-deep cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/ascii-table 123ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/ascii-table set size:26732 disposed:false
+107 silly fetch manifest commander@10.0.1
+108 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/boxen 60ms (cache hit)
+110 silly packumentCache full:https://registry.npmjs.org/boxen set size:96237 disposed:false
+111 silly fetch manifest comment-json@4.2.5
+112 silly packumentCache full:https://registry.npmjs.org/comment-json cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/backoff 128ms (cache hit)
+114 silly packumentCache full:https://registry.npmjs.org/backoff set size:34886 disposed:false
+115 silly fetch manifest concordance@5.0.4
+116 silly packumentCache full:https://registry.npmjs.org/concordance cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/ci-info 131ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/ci-info set size:82482 disposed:false
+119 silly fetch manifest configstore@6.0.0
+120 silly packumentCache full:https://registry.npmjs.org/configstore cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/chalk 147ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/chalk set size:141427 disposed:false
+123 silly fetch manifest content-type@1.0.5
+124 silly packumentCache full:https://registry.npmjs.org/content-type cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/clean-deep 148ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/clean-deep set size:45862 disposed:false
+127 silly fetch manifest cookie@0.7.2
+128 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/commander 142ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/commander set size:287527 disposed:false
+131 silly fetch manifest cron-parser@4.9.0
+132 silly packumentCache full:https://registry.npmjs.org/cron-parser cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/concordance 149ms (cache hit)
+134 silly packumentCache full:https://registry.npmjs.org/concordance set size:41867 disposed:false
+135 silly fetch manifest debug@4.3.7
+136 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/comment-json 161ms (cache hit)
+138 silly packumentCache full:https://registry.npmjs.org/comment-json set size:156498 disposed:false
+139 silly fetch manifest decache@4.6.2
+140 silly packumentCache full:https://registry.npmjs.org/decache cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/configstore 100ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/configstore set size:77018 disposed:false
+143 silly fetch manifest dot-prop@9.0.0
+144 silly packumentCache full:https://registry.npmjs.org/dot-prop cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/cookie 99ms (cache hit)
+146 silly packumentCache full:https://registry.npmjs.org/cookie set size:67120 disposed:false
+147 silly fetch manifest dotenv@16.4.7
+148 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/cron-parser 100ms (cache hit)
+150 silly packumentCache full:https://registry.npmjs.org/cron-parser set size:256514 disposed:false
+151 silly fetch manifest env-paths@3.0.0
+152 silly packumentCache full:https://registry.npmjs.org/env-paths cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/debug 111ms (cache hit)
+154 silly packumentCache full:https://registry.npmjs.org/debug set size:191331 disposed:false
+155 silly fetch manifest envinfo@7.14.0
+156 silly packumentCache full:https://registry.npmjs.org/envinfo cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/decache 117ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/decache set size:53143 disposed:false
+159 silly fetch manifest etag@1.8.1
+160 silly packumentCache full:https://registry.npmjs.org/etag cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/dot-prop 111ms (cache hit)
+162 silly packumentCache full:https://registry.npmjs.org/dot-prop set size:68929 disposed:false
+163 silly fetch manifest execa@5.1.1
+164 silly packumentCache full:https://registry.npmjs.org/execa cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/envinfo 86ms (cache hit)
+166 silly packumentCache full:https://registry.npmjs.org/envinfo set size:257481 disposed:false
+167 silly fetch manifest express@4.21.2
+168 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/env-paths 120ms (cache hit)
+170 silly packumentCache full:https://registry.npmjs.org/env-paths set size:25456 disposed:false
+171 silly fetch manifest express-logging@1.1.1
+172 silly packumentCache full:https://registry.npmjs.org/express-logging cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/execa 142ms (cache hit)
+174 silly packumentCache full:https://registry.npmjs.org/execa set size:172691 disposed:false
+175 silly fetch manifest extract-zip@2.0.1
+176 silly packumentCache full:https://registry.npmjs.org/extract-zip cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/express-logging 99ms (cache hit)
+178 silly packumentCache full:https://registry.npmjs.org/express-logging set size:12936 disposed:false
+179 silly fetch manifest fastest-levenshtein@1.0.16
+180 silly packumentCache full:https://registry.npmjs.org/fastest-levenshtein cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/extract-zip 17ms (cache hit)
+182 silly packumentCache full:https://registry.npmjs.org/extract-zip set size:47715 disposed:false
+183 silly fetch manifest fastify@4.28.1
+184 silly packumentCache full:https://registry.npmjs.org/fastify cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/fastest-levenshtein 18ms (cache hit)
+186 silly packumentCache full:https://registry.npmjs.org/fastest-levenshtein set size:59475 disposed:false
+187 silly fetch manifest find-up@7.0.0
+188 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/chokidar 556ms (cache updated)
+190 silly packumentCache full:https://registry.npmjs.org/chokidar set size:undefined disposed:false
+191 silly fetch manifest flush-write-stream@2.0.0
+192 silly packumentCache full:https://registry.npmjs.org/flush-write-stream cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/fastify 37ms (cache hit)
+194 silly packumentCache full:https://registry.npmjs.org/fastify set size:1561523 disposed:false
+195 silly fetch manifest folder-walker@3.2.0
+196 silly packumentCache full:https://registry.npmjs.org/folder-walker cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/find-up 126ms (cache hit)
+198 silly packumentCache full:https://registry.npmjs.org/find-up set size:38503 disposed:false
+199 silly fetch manifest from2-array@0.0.4
+200 silly packumentCache full:https://registry.npmjs.org/from2-array cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/content-type 550ms (cache updated)
+202 silly packumentCache full:https://registry.npmjs.org/content-type set size:undefined disposed:false
+203 silly fetch manifest fuzzy@0.1.3
+204 silly packumentCache full:https://registry.npmjs.org/fuzzy cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/flush-write-stream 142ms (cache hit)
+206 silly packumentCache full:https://registry.npmjs.org/flush-write-stream set size:15543 disposed:false
+207 silly fetch manifest get-port@5.1.1
+208 silly packumentCache full:https://registry.npmjs.org/get-port cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/folder-walker 78ms (cache hit)
+210 silly packumentCache full:https://registry.npmjs.org/folder-walker set size:32612 disposed:false
+211 silly fetch manifest gh-release-fetch@4.0.3
+212 silly packumentCache full:https://registry.npmjs.org/gh-release-fetch cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/from2-array 50ms (cache hit)
+214 silly packumentCache full:https://registry.npmjs.org/from2-array set size:5549 disposed:false
+215 silly fetch manifest git-repo-info@2.1.1
+216 silly packumentCache full:https://registry.npmjs.org/git-repo-info cache-miss
+217 http fetch GET 200 https://registry.npmjs.org/get-port 32ms (cache hit)
+218 silly packumentCache full:https://registry.npmjs.org/get-port set size:44855 disposed:false
+219 silly fetch manifest gitconfiglocal@2.1.0
+220 silly packumentCache full:https://registry.npmjs.org/gitconfiglocal cache-miss
+221 http fetch GET 200 https://registry.npmjs.org/fuzzy 41ms (cache hit)
+222 silly packumentCache full:https://registry.npmjs.org/fuzzy set size:12033 disposed:false
+223 silly fetch manifest hasbin@1.2.3
+224 silly packumentCache full:https://registry.npmjs.org/hasbin cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/gh-release-fetch 36ms (cache hit)
+226 silly packumentCache full:https://registry.npmjs.org/gh-release-fetch set size:78319 disposed:false
+227 silly fetch manifest hasha@5.2.2
+228 silly packumentCache full:https://registry.npmjs.org/hasha cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/git-repo-info 36ms (cache hit)
+230 silly packumentCache full:https://registry.npmjs.org/git-repo-info set size:30412 disposed:false
+231 silly fetch manifest http-proxy@1.18.1
+232 silly packumentCache full:https://registry.npmjs.org/http-proxy cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/gitconfiglocal 41ms (cache hit)
+234 silly packumentCache full:https://registry.npmjs.org/gitconfiglocal set size:13965 disposed:false
+235 silly fetch manifest http-proxy-middleware@2.0.7
+236 silly packumentCache full:https://registry.npmjs.org/http-proxy-middleware cache-miss
+237 http fetch GET 200 https://registry.npmjs.org/hasbin 44ms (cache hit)
+238 silly packumentCache full:https://registry.npmjs.org/hasbin set size:24864 disposed:false
+239 silly fetch manifest https-proxy-agent@7.0.5
+240 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+241 http fetch GET 200 https://registry.npmjs.org/hasha 47ms (cache hit)
+242 silly packumentCache full:https://registry.npmjs.org/hasha set size:38599 disposed:false
+243 silly fetch manifest inquirer@6.5.2
+244 silly packumentCache full:https://registry.npmjs.org/inquirer cache-miss
+245 http fetch GET 200 https://registry.npmjs.org/http-proxy 53ms (cache hit)
+246 silly packumentCache full:https://registry.npmjs.org/http-proxy set size:183156 disposed:false
+247 silly fetch manifest inquirer-autocomplete-prompt@1.4.0
+248 silly packumentCache full:https://registry.npmjs.org/inquirer-autocomplete-prompt cache-miss
+249 http fetch GET 200 https://registry.npmjs.org/express 420ms (cache updated)
+250 silly packumentCache full:https://registry.npmjs.org/express set size:undefined disposed:false
+251 silly fetch manifest ipx@2.1.0
+252 silly packumentCache full:https://registry.npmjs.org/ipx cache-miss
+253 http fetch GET 200 https://registry.npmjs.org/etag 543ms (cache updated)
+254 silly packumentCache full:https://registry.npmjs.org/etag set size:undefined disposed:false
+255 silly fetch manifest is-docker@3.0.0
+256 silly packumentCache full:https://registry.npmjs.org/is-docker cache-miss
+257 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 77ms (cache hit)
+258 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:76222 disposed:false
+259 silly fetch manifest is-stream@4.0.1
+260 silly packumentCache full:https://registry.npmjs.org/is-stream cache-miss
+261 http fetch GET 200 https://registry.npmjs.org/http-proxy-middleware 92ms (cache hit)
+262 silly packumentCache full:https://registry.npmjs.org/http-proxy-middleware set size:301873 disposed:false
+263 silly fetch manifest is-wsl@3.1.0
+264 silly packumentCache full:https://registry.npmjs.org/is-wsl cache-miss
+265 http fetch GET 200 https://registry.npmjs.org/inquirer 91ms (cache hit)
+266 silly packumentCache full:https://registry.npmjs.org/inquirer set size:462976 disposed:false
+267 silly fetch manifest isexe@3.1.1
+268 silly packumentCache full:https://registry.npmjs.org/isexe cache-miss
+269 http fetch GET 200 https://registry.npmjs.org/inquirer-autocomplete-prompt 91ms (cache hit)
+270 silly packumentCache full:https://registry.npmjs.org/inquirer-autocomplete-prompt set size:76798 disposed:false
+271 silly fetch manifest js-yaml@4.1.0
+272 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+273 http fetch GET 200 https://registry.npmjs.org/ipx 75ms (cache hit)
+274 silly packumentCache full:https://registry.npmjs.org/ipx set size:271872 disposed:false
+275 silly fetch manifest jsonwebtoken@9.0.2
+276 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken cache-miss
+277 http fetch GET 200 https://registry.npmjs.org/is-docker 85ms (cache hit)
+278 silly packumentCache full:https://registry.npmjs.org/is-docker set size:21642 disposed:false
+279 silly fetch manifest jwt-decode@4.0.0
+280 silly packumentCache full:https://registry.npmjs.org/jwt-decode cache-miss
+281 http fetch GET 200 https://registry.npmjs.org/is-wsl 69ms (cache hit)
+282 silly packumentCache full:https://registry.npmjs.org/is-wsl set size:18741 disposed:false
+283 silly fetch manifest lambda-local@2.2.0
+284 silly packumentCache full:https://registry.npmjs.org/lambda-local cache-miss
+285 http fetch GET 200 https://registry.npmjs.org/is-stream 84ms (cache hit)
+286 silly packumentCache full:https://registry.npmjs.org/is-stream set size:18582 disposed:false
+287 silly fetch manifest listr2@8.2.5
+288 silly packumentCache full:https://registry.npmjs.org/listr2 cache-miss
+289 http fetch GET 200 https://registry.npmjs.org/isexe 71ms (cache hit)
+290 silly packumentCache full:https://registry.npmjs.org/isexe set size:19340 disposed:false
+291 silly fetch manifest locate-path@7.2.0
+292 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+293 http fetch GET 200 https://registry.npmjs.org/js-yaml 89ms (cache hit)
+294 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:145975 disposed:false
+295 silly fetch manifest lodash@4.17.21
+296 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+297 http fetch GET 200 https://registry.npmjs.org/jwt-decode 96ms (cache hit)
+298 silly packumentCache full:https://registry.npmjs.org/jwt-decode set size:133590 disposed:false
+299 silly fetch manifest log-symbols@6.0.0
+300 silly packumentCache full:https://registry.npmjs.org/log-symbols cache-miss
+301 http fetch GET 200 https://registry.npmjs.org/lambda-local 100ms (cache hit)
+302 silly packumentCache full:https://registry.npmjs.org/lambda-local set size:91973 disposed:false
+303 silly fetch manifest log-update@6.1.0
+304 silly packumentCache full:https://registry.npmjs.org/log-update cache-miss
+305 http fetch GET 200 https://registry.npmjs.org/listr2 104ms (cache hit)
+306 silly packumentCache full:https://registry.npmjs.org/listr2 set size:1005507 disposed:false
+307 silly fetch manifest maxstache@1.0.7
+308 silly packumentCache full:https://registry.npmjs.org/maxstache cache-miss
+309 http fetch GET 200 https://registry.npmjs.org/locate-path 112ms (cache hit)
+310 silly packumentCache full:https://registry.npmjs.org/locate-path set size:29792 disposed:false
+311 silly fetch manifest maxstache-stream@1.0.4
+312 silly packumentCache full:https://registry.npmjs.org/maxstache-stream cache-miss
+313 http fetch GET 200 https://registry.npmjs.org/dotenv 832ms (cache updated)
+314 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+315 silly fetch manifest multiparty@4.2.3
+316 silly packumentCache full:https://registry.npmjs.org/multiparty cache-miss
+317 http fetch GET 200 https://registry.npmjs.org/log-symbols 64ms (cache hit)
+318 silly packumentCache full:https://registry.npmjs.org/log-symbols set size:30001 disposed:false
+319 silly fetch manifest netlify@13.2.0
+320 silly packumentCache full:https://registry.npmjs.org/netlify cache-miss
+321 http fetch GET 200 https://registry.npmjs.org/log-update 59ms (cache hit)
+322 silly packumentCache full:https://registry.npmjs.org/log-update set size:45543 disposed:false
+323 silly fetch manifest netlify-redirector@0.5.0
+324 silly packumentCache full:https://registry.npmjs.org/netlify-redirector cache-miss
+325 http fetch GET 200 https://registry.npmjs.org/maxstache 39ms (cache hit)
+326 silly packumentCache full:https://registry.npmjs.org/maxstache set size:16196 disposed:false
+327 silly fetch manifest node-fetch@3.3.2
+328 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+329 http fetch GET 200 https://registry.npmjs.org/maxstache-stream 52ms (cache hit)
+330 silly packumentCache full:https://registry.npmjs.org/maxstache-stream set size:9324 disposed:false
+331 silly fetch manifest node-version-alias@3.4.1
+332 silly packumentCache full:https://registry.npmjs.org/node-version-alias cache-miss
+333 http fetch GET 200 https://registry.npmjs.org/multiparty 45ms (cache hit)
+334 silly packumentCache full:https://registry.npmjs.org/multiparty set size:74853 disposed:false
+335 silly fetch manifest ora@8.1.1
+336 silly packumentCache full:https://registry.npmjs.org/ora cache-miss
+337 http fetch GET 200 https://registry.npmjs.org/netlify-redirector 41ms (cache hit)
+338 silly packumentCache full:https://registry.npmjs.org/netlify-redirector set size:29241 disposed:false
+339 silly fetch manifest p-filter@4.1.0
+340 silly packumentCache full:https://registry.npmjs.org/p-filter cache-miss
+341 http fetch GET 200 https://registry.npmjs.org/netlify 52ms (cache hit)
+342 silly packumentCache full:https://registry.npmjs.org/netlify set size:848394 disposed:false
+343 silly fetch manifest p-map@7.0.2
+344 silly packumentCache full:https://registry.npmjs.org/p-map cache-miss
+345 http fetch GET 200 https://registry.npmjs.org/node-fetch 63ms (cache hit)
+346 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+347 silly fetch manifest p-wait-for@5.0.2
+348 silly packumentCache full:https://registry.npmjs.org/p-wait-for cache-miss
+349 http fetch GET 200 https://registry.npmjs.org/node-version-alias 75ms (cache hit)
+350 silly packumentCache full:https://registry.npmjs.org/node-version-alias set size:47093 disposed:false
+351 silly fetch manifest parallel-transform@1.2.0
+352 silly packumentCache full:https://registry.npmjs.org/parallel-transform cache-miss
+353 http fetch GET 200 https://registry.npmjs.org/ora 74ms (cache hit)
+354 silly packumentCache full:https://registry.npmjs.org/ora set size:129011 disposed:false
+355 silly fetch manifest parse-github-url@1.0.3
+356 silly packumentCache full:https://registry.npmjs.org/parse-github-url cache-miss
+357 http fetch GET 200 https://registry.npmjs.org/p-filter 85ms (cache hit)
+358 silly packumentCache full:https://registry.npmjs.org/p-filter set size:17447 disposed:false
+359 silly fetch manifest parse-gitignore@2.0.0
+360 silly packumentCache full:https://registry.npmjs.org/parse-gitignore cache-miss
+361 http fetch GET 200 https://registry.npmjs.org/p-map 67ms (cache hit)
+362 silly packumentCache full:https://registry.npmjs.org/p-map set size:50464 disposed:false
+363 silly fetch manifest path-key@4.0.0
+364 silly packumentCache full:https://registry.npmjs.org/path-key cache-miss
+365 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 318ms (cache updated)
+366 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken set size:undefined disposed:false
+367 silly fetch manifest prettyjson@1.2.5
+368 silly packumentCache full:https://registry.npmjs.org/prettyjson cache-miss
+369 http fetch GET 200 https://registry.npmjs.org/p-wait-for 57ms (cache hit)
+370 silly packumentCache full:https://registry.npmjs.org/p-wait-for set size:32692 disposed:false
+371 silly fetch manifest pump@3.0.2
+372 silly packumentCache full:https://registry.npmjs.org/pump cache-miss
+373 http fetch GET 200 https://registry.npmjs.org/parse-github-url 42ms (cache hit)
+374 silly packumentCache full:https://registry.npmjs.org/parse-github-url set size:43632 disposed:false
+375 silly fetch manifest raw-body@2.5.2
+376 silly packumentCache full:https://registry.npmjs.org/raw-body cache-miss
+377 http fetch GET 200 https://registry.npmjs.org/parallel-transform 52ms (cache hit)
+378 silly packumentCache full:https://registry.npmjs.org/parallel-transform set size:17719 disposed:false
+379 silly fetch manifest read-package-up@11.0.0
+380 silly packumentCache full:https://registry.npmjs.org/read-package-up cache-miss
+381 http fetch GET 200 https://registry.npmjs.org/lodash 260ms (cache updated)
+382 silly packumentCache full:https://registry.npmjs.org/lodash set size:undefined disposed:false
+383 silly fetch manifest readdirp@3.6.0
+384 silly packumentCache full:https://registry.npmjs.org/readdirp cache-miss
+385 http fetch GET 200 https://registry.npmjs.org/prettyjson 49ms (cache hit)
+386 silly packumentCache full:https://registry.npmjs.org/prettyjson set size:68270 disposed:false
+387 silly fetch manifest semver@7.6.3
+388 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+389 http fetch GET 200 https://registry.npmjs.org/parse-gitignore 66ms (cache hit)
+390 silly packumentCache full:https://registry.npmjs.org/parse-gitignore set size:29697 disposed:false
+391 silly fetch manifest source-map-support@0.5.21
+392 silly packumentCache full:https://registry.npmjs.org/source-map-support cache-miss
+393 http fetch GET 200 https://registry.npmjs.org/path-key 70ms (cache hit)
+394 silly packumentCache full:https://registry.npmjs.org/path-key set size:16975 disposed:false
+395 silly fetch manifest strip-ansi-control-characters@2.0.0
+396 silly packumentCache full:https://registry.npmjs.org/strip-ansi-control-characters cache-miss
+397 http fetch GET 200 https://registry.npmjs.org/pump 64ms (cache hit)
+398 silly packumentCache full:https://registry.npmjs.org/pump set size:38118 disposed:false
+399 silly fetch manifest tabtab@3.0.2
+400 silly packumentCache full:https://registry.npmjs.org/tabtab cache-miss
+401 http fetch GET 200 https://registry.npmjs.org/read-package-up 79ms (cache hit)
+402 silly packumentCache full:https://registry.npmjs.org/read-package-up set size:4618 disposed:false
+403 silly fetch manifest tempy@3.1.0
+404 silly packumentCache full:https://registry.npmjs.org/tempy cache-miss
+405 http fetch GET 200 https://registry.npmjs.org/strip-ansi-control-characters 71ms (cache hit)
+406 silly packumentCache full:https://registry.npmjs.org/strip-ansi-control-characters set size:7189 disposed:false
+407 silly fetch manifest terminal-link@3.0.0
+408 silly packumentCache full:https://registry.npmjs.org/terminal-link cache-miss
+409 http fetch GET 200 https://registry.npmjs.org/source-map-support 83ms (cache hit)
+410 silly packumentCache full:https://registry.npmjs.org/source-map-support set size:125488 disposed:false
+411 silly fetch manifest through2-filter@4.0.0
+412 silly packumentCache full:https://registry.npmjs.org/through2-filter cache-miss
+413 http fetch GET 200 https://registry.npmjs.org/tabtab 82ms (cache hit)
+414 silly packumentCache full:https://registry.npmjs.org/tabtab set size:65367 disposed:false
+415 silly fetch manifest through2-map@4.0.0
+416 silly packumentCache full:https://registry.npmjs.org/through2-map cache-miss
+417 http fetch GET 200 https://registry.npmjs.org/tempy 55ms (cache hit)
+418 silly packumentCache full:https://registry.npmjs.org/tempy set size:38729 disposed:false
+419 silly fetch manifest toml@3.0.0
+420 silly packumentCache full:https://registry.npmjs.org/toml cache-miss
+421 http fetch GET 200 https://registry.npmjs.org/through2-map 39ms (cache hit)
+422 silly packumentCache full:https://registry.npmjs.org/through2-map set size:21222 disposed:false
+423 silly fetch manifest tomlify-j0.4@3.0.0
+424 silly packumentCache full:https://registry.npmjs.org/tomlify-j0.4 cache-miss
+425 http fetch GET 200 https://registry.npmjs.org/terminal-link 60ms (cache hit)
+426 silly packumentCache full:https://registry.npmjs.org/terminal-link set size:22892 disposed:false
+427 silly fetch manifest ulid@2.3.0
+428 silly packumentCache full:https://registry.npmjs.org/ulid cache-miss
+429 http fetch GET 200 https://registry.npmjs.org/through2-filter 54ms (cache hit)
+430 silly packumentCache full:https://registry.npmjs.org/through2-filter set size:23007 disposed:false
+431 silly fetch manifest unixify@1.0.0
+432 silly packumentCache full:https://registry.npmjs.org/unixify cache-miss
+433 http fetch GET 200 https://registry.npmjs.org/toml 53ms (cache hit)
+434 silly packumentCache full:https://registry.npmjs.org/toml set size:48632 disposed:false
+435 silly fetch manifest update-notifier@7.3.1
+436 silly packumentCache full:https://registry.npmjs.org/update-notifier cache-miss
+437 http fetch GET 200 https://registry.npmjs.org/raw-body 256ms (cache updated)
+438 silly packumentCache full:https://registry.npmjs.org/raw-body set size:undefined disposed:false
+439 silly fetch manifest uuid@9.0.1
+440 silly packumentCache full:https://registry.npmjs.org/uuid cache-miss
+441 http fetch GET 200 https://registry.npmjs.org/ulid 86ms (cache hit)
+442 silly packumentCache full:https://registry.npmjs.org/ulid set size:27003 disposed:false
+443 silly fetch manifest wait-port@1.1.0
+444 silly packumentCache full:https://registry.npmjs.org/wait-port cache-miss
+445 http fetch GET 200 https://registry.npmjs.org/unixify 88ms (cache hit)
+446 silly packumentCache full:https://registry.npmjs.org/unixify set size:10831 disposed:false
+447 silly fetch manifest write-file-atomic@5.0.1
+448 silly packumentCache full:https://registry.npmjs.org/write-file-atomic cache-miss
+449 http fetch GET 200 https://registry.npmjs.org/tomlify-j0.4 104ms (cache hit)
+450 silly packumentCache full:https://registry.npmjs.org/tomlify-j0.4 set size:26685 disposed:false
+451 silly fetch manifest ws@8.18.0
+452 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+453 http fetch GET 200 https://registry.npmjs.org/update-notifier 84ms (cache hit)
+454 silly packumentCache full:https://registry.npmjs.org/update-notifier set size:133068 disposed:false
+455 silly fetch manifest zod@3.23.8
+456 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+457 http fetch GET 200 https://registry.npmjs.org/readdirp 299ms (cache updated)
+458 silly packumentCache full:https://registry.npmjs.org/readdirp set size:undefined disposed:false
+459 http fetch GET 200 https://registry.npmjs.org/uuid 62ms (cache hit)
+460 silly packumentCache full:https://registry.npmjs.org/uuid set size:199977 disposed:false
+461 http fetch GET 200 https://registry.npmjs.org/wait-port 56ms (cache hit)
+462 silly packumentCache full:https://registry.npmjs.org/wait-port set size:73132 disposed:false
+463 http fetch GET 200 https://registry.npmjs.org/semver 296ms (cache updated)
+464 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+465 http fetch GET 200 https://registry.npmjs.org/write-file-atomic 57ms (cache hit)
+466 silly packumentCache full:https://registry.npmjs.org/write-file-atomic set size:75129 disposed:false
+467 http fetch GET 200 https://registry.npmjs.org/ws 56ms (cache hit)
+468 silly packumentCache full:https://registry.npmjs.org/ws set size:403597 disposed:false
+469 http fetch GET 200 https://registry.npmjs.org/zod 71ms (cache hit)
+470 silly packumentCache full:https://registry.npmjs.org/zod set size:1578230 disposed:false
+471 silly reify moves {}
+472 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/fsevents
+473 silly reify mark deleted [
+473 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/fsevents'
+473 silly reify ]
+474 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-win32-x64-msvc
+475 silly reify mark deleted [
+475 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-win32-x64-msvc'
+475 silly reify ]
+476 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-win32-ia32-msvc
+477 silly reify mark deleted [
+477 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-win32-ia32-msvc'
+477 silly reify ]
+478 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-win32-arm64-msvc
+479 silly reify mark deleted [
+479 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-win32-arm64-msvc'
+479 silly reify ]
+480 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-x64-musl
+481 silly reify mark deleted [
+481 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-x64-musl'
+481 silly reify ]
+482 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-x64-gnu
+483 silly reify mark deleted [
+483 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-x64-gnu'
+483 silly reify ]
+484 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-s390x-gnu
+485 silly reify mark deleted [
+485 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-s390x-gnu'
+485 silly reify ]
+486 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-riscv64-gnu
+487 silly reify mark deleted [
+487 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-riscv64-gnu'
+487 silly reify ]
+488 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+489 silly reify mark deleted [
+489 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+489 silly reify ]
+490 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm64-musl
+491 silly reify mark deleted [
+491 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm64-musl'
+491 silly reify ]
+492 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm64-gnu
+493 silly reify mark deleted [
+493 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm64-gnu'
+493 silly reify ]
+494 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm-musleabihf
+495 silly reify mark deleted [
+495 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm-musleabihf'
+495 silly reify ]
+496 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm-gnueabihf
+497 silly reify mark deleted [
+497 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+497 silly reify ]
+498 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-darwin-x64
+499 silly reify mark deleted [
+499 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-darwin-x64'
+499 silly reify ]
+500 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-darwin-arm64
+501 silly reify mark deleted [
+501 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-darwin-arm64'
+501 silly reify ]
+502 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-android-arm-eabi
+503 silly reify mark deleted [
+503 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@rollup/rollup-android-arm-eabi'
+503 silly reify ]
+504 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-win32-x64
+505 silly reify mark deleted [
+505 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-win32-x64'
+505 silly reify ]
+506 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-win32-ia32
+507 silly reify mark deleted [
+507 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-win32-ia32'
+507 silly reify ]
+508 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-win32-arm64
+509 silly reify mark deleted [
+509 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-win32-arm64'
+509 silly reify ]
+510 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-x64-musl
+511 silly reify mark deleted [
+511 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-x64-musl'
+511 silly reify ]
+512 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-x64-glibc
+513 silly reify mark deleted [
+513 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-x64-glibc'
+513 silly reify ]
+514 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-arm64-musl
+515 silly reify mark deleted [
+515 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-arm64-musl'
+515 silly reify ]
+516 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-arm64-glibc
+517 silly reify mark deleted [
+517 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-arm64-glibc'
+517 silly reify ]
+518 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-arm-glibc
+519 silly reify mark deleted [
+519 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-linux-arm-glibc'
+519 silly reify ]
+520 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-freebsd-x64
+521 silly reify mark deleted [
+521 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-freebsd-x64'
+521 silly reify ]
+522 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-darwin-x64
+523 silly reify mark deleted [
+523 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-darwin-x64'
+523 silly reify ]
+524 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-darwin-arm64
+525 silly reify mark deleted [
+525 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@parcel/watcher-darwin-arm64'
+525 silly reify ]
+526 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-win32-x64
+527 silly reify mark deleted [
+527 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-win32-x64',
+527 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy.exe'
+527 silly reify ]
+528 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-win32-ia32
+529 silly reify mark deleted [
+529 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-win32-ia32',
+529 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy.exe'
+529 silly reify ]
+530 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-openbsd-x64
+531 silly reify mark deleted [
+531 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-openbsd-x64',
+531 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+531 silly reify ]
+532 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-x64
+533 silly reify mark deleted [
+533 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-x64',
+533 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+533 silly reify ]
+534 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-ppc64
+535 silly reify mark deleted [
+535 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-ppc64',
+535 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+535 silly reify ]
+536 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-ia32
+537 silly reify mark deleted [
+537 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-ia32',
+537 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+537 silly reify ]
+538 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-arm64
+539 silly reify mark deleted [
+539 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-arm64',
+539 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+539 silly reify ]
+540 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-arm
+541 silly reify mark deleted [
+541 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-linux-arm',
+541 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+541 silly reify ]
+542 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-freebsd-x64
+543 silly reify mark deleted [
+543 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-freebsd-x64',
+543 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+543 silly reify ]
+544 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-freebsd-arm64
+545 silly reify mark deleted [
+545 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-freebsd-arm64',
+545 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+545 silly reify ]
+546 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-darwin-x64
+547 silly reify mark deleted [
+547 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-darwin-x64',
+547 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+547 silly reify ]
+548 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-darwin-arm64
+549 silly reify mark deleted [
+549 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/local-functions-proxy-darwin-arm64',
+549 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/.bin/local-functions-proxy'
+549 silly reify ]
+550 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/win32-x64
+551 silly reify mark deleted [
+551 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/win32-x64'
+551 silly reify ]
+552 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/win32-ia32
+553 silly reify mark deleted [
+553 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/win32-ia32'
+553 silly reify ]
+554 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/win32-arm64
+555 silly reify mark deleted [
+555 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/win32-arm64'
+555 silly reify ]
+556 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/sunos-x64
+557 silly reify mark deleted [
+557 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/sunos-x64'
+557 silly reify ]
+558 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/openbsd-x64
+559 silly reify mark deleted [
+559 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/openbsd-x64'
+559 silly reify ]
+560 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/netbsd-x64
+561 silly reify mark deleted [
+561 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/netbsd-x64'
+561 silly reify ]
+562 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-x64
+563 silly reify mark deleted [
+563 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-x64'
+563 silly reify ]
+564 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-s390x
+565 silly reify mark deleted [
+565 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-s390x'
+565 silly reify ]
+566 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-riscv64
+567 silly reify mark deleted [
+567 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-riscv64'
+567 silly reify ]
+568 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-ppc64
+569 silly reify mark deleted [
+569 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-ppc64'
+569 silly reify ]
+570 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-mips64el
+571 silly reify mark deleted [
+571 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-mips64el'
+571 silly reify ]
+572 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-loong64
+573 silly reify mark deleted [
+573 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-loong64'
+573 silly reify ]
+574 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-ia32
+575 silly reify mark deleted [
+575 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-ia32'
+575 silly reify ]
+576 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-arm64
+577 silly reify mark deleted [
+577 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-arm64'
+577 silly reify ]
+578 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-arm
+579 silly reify mark deleted [
+579 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/linux-arm'
+579 silly reify ]
+580 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/freebsd-x64
+581 silly reify mark deleted [
+581 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/freebsd-x64'
+581 silly reify ]
+582 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/freebsd-arm64
+583 silly reify mark deleted [
+583 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/freebsd-arm64'
+583 silly reify ]
+584 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/darwin-x64
+585 silly reify mark deleted [
+585 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/darwin-x64'
+585 silly reify ]
+586 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/darwin-arm64
+587 silly reify mark deleted [
+587 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/darwin-arm64'
+587 silly reify ]
+588 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/android-x64
+589 silly reify mark deleted [
+589 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/android-x64'
+589 silly reify ]
+590 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/android-arm
+591 silly reify mark deleted [
+591 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/android-arm'
+591 silly reify ]
+592 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/aix-ppc64
+593 silly reify mark deleted [
+593 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@netlify/edge-bundler/node_modules/@esbuild/aix-ppc64'
+593 silly reify ]
+594 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/win32-x64
+595 silly reify mark deleted [
+595 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/win32-x64'
+595 silly reify ]
+596 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/win32-ia32
+597 silly reify mark deleted [
+597 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/win32-ia32'
+597 silly reify ]
+598 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/win32-arm64
+599 silly reify mark deleted [
+599 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/win32-arm64'
+599 silly reify ]
+600 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/sunos-x64
+601 silly reify mark deleted [
+601 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/sunos-x64'
+601 silly reify ]
+602 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/openbsd-x64
+603 silly reify mark deleted [
+603 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/openbsd-x64'
+603 silly reify ]
+604 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/netbsd-x64
+605 silly reify mark deleted [
+605 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/netbsd-x64'
+605 silly reify ]
+606 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-x64
+607 silly reify mark deleted [
+607 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-x64'
+607 silly reify ]
+608 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-s390x
+609 silly reify mark deleted [
+609 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-s390x'
+609 silly reify ]
+610 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-riscv64
+611 silly reify mark deleted [
+611 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-riscv64'
+611 silly reify ]
+612 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-ppc64
+613 silly reify mark deleted [
+613 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-ppc64'
+613 silly reify ]
+614 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-mips64el
+615 silly reify mark deleted [
+615 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-mips64el'
+615 silly reify ]
+616 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-loong64
+617 silly reify mark deleted [
+617 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-loong64'
+617 silly reify ]
+618 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-ia32
+619 silly reify mark deleted [
+619 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-ia32'
+619 silly reify ]
+620 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-arm64
+621 silly reify mark deleted [
+621 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-arm64'
+621 silly reify ]
+622 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-arm
+623 silly reify mark deleted [
+623 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/linux-arm'
+623 silly reify ]
+624 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/freebsd-x64
+625 silly reify mark deleted [
+625 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/freebsd-x64'
+625 silly reify ]
+626 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/freebsd-arm64
+627 silly reify mark deleted [
+627 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/freebsd-arm64'
+627 silly reify ]
+628 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/darwin-x64
+629 silly reify mark deleted [
+629 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/darwin-x64'
+629 silly reify ]
+630 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/darwin-arm64
+631 silly reify mark deleted [
+631 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/darwin-arm64'
+631 silly reify ]
+632 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/android-x64
+633 silly reify mark deleted [
+633 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/android-x64'
+633 silly reify ]
+634 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/android-arm
+635 silly reify mark deleted [
+635 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/android-arm'
+635 silly reify ]
+636 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/aix-ppc64
+637 silly reify mark deleted [
+637 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/@esbuild/aix-ppc64'
+637 silly reify ]
+638 warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+639 info run sharp@0.32.6 install node_modules/netlify-cli/node_modules/sharp (node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)
+640 info run unix-dgram@2.0.6 install node_modules/netlify-cli/node_modules/unix-dgram node-gyp rebuild
+641 info run sharp@0.32.6 install { code: 1, signal: null }
+642 info run unix-dgram@2.0.6 install { code: 1, signal: null }
+643 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/unix-dgram
+644 silly reify mark deleted [
+644 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/unix-dgram'
+644 silly reify ]
+645 verbose reify failed optional dependency /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/nan
+646 silly reify mark deleted [
+646 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/nan'
+646 silly reify ]
+647 verbose stack Error: command failed
+647 verbose stack     at promiseSpawn (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:22:22)
+647 verbose stack     at spawnWithShell (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:124:10)
+647 verbose stack     at promiseSpawn (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:12:12)
+647 verbose stack     at runScriptPkg (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script-pkg.js:77:13)
+647 verbose stack     at runScript (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:9:12)
+647 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/rebuild.js:329:17
+647 verbose stack     at run (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:67:22)
+647 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:84:9
+647 verbose stack     at new Promise (<anonymous>)
+647 verbose stack     at callLimit (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:35:69)
+648 verbose pkgid sharp@0.32.6
+649 error code 1
+650 error path /data/data/com.termux/files/usr/lib/node_modules/netlify-cli/node_modules/sharp
+651 error command failed
+652 error command sh -c (node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)
+653 error sharp: Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.14.5/libvips-8.14.5-android-arm64v8.tar.br
+653 error sharp: Please see https://sharp.pixelplumbing.com/install for required dependencies
+654 error sharp: Installation error: Prebuilt libvips 8.14.5 binaries are not yet available for android-arm64v8
+655 silly unfinished npm timer reify 1734487406220
+656 silly unfinished npm timer reify:build 1734487426518
+657 silly unfinished npm timer build 1734487426522
+658 silly unfinished npm timer build:deps 1734487426524
+659 silly unfinished npm timer build:run:install 1734487426712
+660 silly unfinished npm timer build:run:install:node_modules/netlify-cli/node_modules/sharp 1734487426712
+661 verbose cwd /data/data/com.termux/files/home
+662 verbose os Linux 4.14.186+
+663 verbose node v22.9.0
+664 verbose npm  v10.8.3
+665 verbose exit 1
+666 verbose code 1
+667 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2024-12-18T02_03_25_064Z-debug-0.log
