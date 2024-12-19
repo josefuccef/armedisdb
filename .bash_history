@@ -29,3 +29,22 @@ git config --global user.name "josefuccef"
 git branch -M main
 clear
 exit
+git add .
+git commit -m "first commit"
+git push
+git add .
+git commit -m "first commit"
+git push
+git add .
+git commit -m "first commit"
+git push
+clear
+nodemon index.js
+git add .
+git commit -m "first commit"
+git push
+clear
+exit
+git add .
+clear
+exit
