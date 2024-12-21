@@ -48,3 +48,16 @@ exit
 git add .
 clear
 exit
+npm start
+clear
+nodemon index.js
+git add .
+git commit -m "changd page team"
+git push
+clear
+git add .
+git commit -m "changd page team"
+git push
+git pull origin main
+git push origin main --force
+nodemon index.js
