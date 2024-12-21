@@ -144,7 +144,7 @@ Josef Uccef
 <div class="card-footer d-flex align-items-center justify-content-between">
 <a class="small text-white stretched-link" href="/ModifChiffre"
 style="text-decoration :none;
-font-size:20px;">Le chiffre d'affaires du : <%=chiffre.DATE%></a>
+font-size:20px;">Le total des transactions du 11/12/24 : <%=chiffre.DATE%></a>
 <div class="small text-white">
 <i class="fas fa-angle-right"></i>
 </div>
@@ -155,13 +155,15 @@ font-size:20px;">Le chiffre d'affaires du : <%=chiffre.DATE%></a>
 <div class="card bg-warning text-white mb-4">
 <div class="card-body" style="display:flex ; justify-content:space-between ; align-items :center;">
 <h2 style="font-size:50px ; font-weight:900;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);">
-<%= arry.length%> <span style="font-size:23px;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"> Article</span>
+<%= arry.length%> <span style="font-size:23px;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);">
+Produits En Stock.
+</span>
 </h2>
 <h2 style="font-size:40px ;"><i class="fa-solid fa-table"></i></h2>
 </div>
 <div class="card-footer d-flex align-items-center justify-content-between">
 <a class="small text-white stretched-link" href="/TableAdmin" style="text-decoration :none;
-font-size: 20px; ">Nombre de produits.</a>
+font-size: 20px; ">Pour plus d'informations.</a>
 <div class="small text-white">
 <i class="fas fa-angle-right"></i>
 </div>
@@ -171,13 +173,14 @@ font-size: 20px; ">Nombre de produits.</a>
 <div class="col-xl-3 col-md-6">
 <div class="card bg-success text-white mb-4">
 <div class="card-body" style="display:flex ; justify-content:space-between ; align-items :center;">
-<h2 style="font-size:50px ; font-weight:900;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"><%= data.length %> <span style="font-size:23px;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"> Article</span></h2>
+<h2 style="font-size:50px ; font-weight:900;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"><%=
+data.length %> <span style="font-size:23px;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"> Produits Avec Plus De 10 Unités.</span></h2>
 <h2 style="font-size:40px ;"><i class="fa-solid fa-chart-simple"></i></h2>
 </div>
 <div class="card-footer d-flex align-items-center justify-content-between">
 <a class="small text-white stretched-link" href="/TableAdmin"
 style="text-decoration :none;
-font-size: 20px; ">Le nombre de produits est supérieur à 10.</a></a>
+font-size: 20px; ">Pour plus d'informations.</a></a>
 <div class="small text-white">
 <i class="fas fa-angle-right"></i>
 </div>
@@ -187,11 +190,13 @@ font-size: 20px; ">Le nombre de produits est supérieur à 10.</a></a>
 <div class="col-xl-3 col-md-6">
 <div class="card bg-danger text-white mb-4">
 <div class="card-body" style="display:flex ; justify-content:space-between ; align-items :center;">
-<h2 style="font-size:50px ; font-weight:900;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"><%= array.length %> <span style="font-size:23px;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"> Article</span></h2>
+<h2 style="font-size:50px ; font-weight:900;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"><%=
+array.length %> <span style="font-size:23px;text-shadow: 4px 0px 3px rgba(66, 68, 90, 1);"> Produits En Rupture De Stock.
+</span></h2>
 <h2 style="font-size:40px ;"><i class="fa-solid fa-chart-line"></i></h2>
 </div>
 <div class="card-footer d-flex align-items-center justify-content-between">
-<a class="small text-white stretched-link" href="/TableAdmin" style="text-decoration :none;font-size: 20px; ">Le nombre de produits est égal à 0.</a>
+<a class="small text-white stretched-link" href="/TableAdmin" style="text-decoration :none;font-size: 20px; ">Pour plus d'informations.</a>
 <div class="small text-white">
 <i class="fas fa-angle-right"></i>
 </div>
