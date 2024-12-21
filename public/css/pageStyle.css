@@ -49,7 +49,6 @@ nav .navbar .links li {
     justify-content: space-between;
     list-style: none;
     padding: 0 14px;
-    
 }
 nav .navbar .links li a {
     height: 100%;
@@ -199,7 +198,7 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (min-width: 800px) {
     nav {
         /* position: relative; */
-        zoom: 2;
+        zoom: 1.5;
         background: black;
     }
     .navbar .bx-menu {

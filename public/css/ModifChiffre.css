@@ -200,7 +200,7 @@ nav .navbar .links li:hover .js-sub-menu {
 @media (min-width: 800px) {
     nav {
         /* position: relative; */
-        zoom: 1.8;
+        zoom: 1.5;
         background: #000;
     }
     .navbar .bx-menu {
@@ -478,7 +478,7 @@ button:focus-within .button_info-title {
         display: flex;
         justify-content: center;
         align-items: center;
-        zoom: 1.5;
+        zoom: 1.3;
     }
     .ml-table {
         font-size: 30px;
