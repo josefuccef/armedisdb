@@ -48,7 +48,7 @@ nav .navbar .links li {
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    padding: 10px 14px;
+    padding: 10px ;
     margin: 30px 0;
 }
 
@@ -57,8 +57,8 @@ nav .navbar .links li a {
     text-decoration: none;
     white-space: nowrap;
     color: #fff;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 900;
 }
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow {
