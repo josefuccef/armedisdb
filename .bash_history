@@ -17,3 +17,6 @@ git add .
 git commit -m "change"
 git push 
 exit
+git add .
+git commit -m "change indextable"
+git push
