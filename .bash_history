@@ -20,3 +20,8 @@ exit
 git add .
 git commit -m "change indextable"
 git push
+nodemon index.js
+git add .
+git commit -m "change index"
+git push
+exit
