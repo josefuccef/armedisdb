@@ -91,6 +91,19 @@ router.get("/TableAdmin", isAuthenticated, isAdmin, (req, res) => {
             console.log(err);
         });
 });
+
+router.get("/cmdAdmin", isAuthenticated, isAdmin, (req, res) => {
+    Article.find()
+        .then(result => {
+            
+            res.render("cmdAdmin", { data: result });
+        })
+        .catch(err => {
+            console.log(err);
+        });
+});
+
+
 router.get("/createArticle", isAuthenticated, isAdmin, (req, res) => {
     res.render("createArticle");
 });

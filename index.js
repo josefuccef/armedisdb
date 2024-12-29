@@ -47,8 +47,7 @@ app.use("/", login);
 
 // connect to server mongodb par mongoose
 mongoose
-    .connect(dbURL)
-    .then(() => {
+    .connect(dbURL).then(() => {
         app.listen(port, (req, res) => {
             console.log(`localhost:${port}`, "connect is seccese");
         });

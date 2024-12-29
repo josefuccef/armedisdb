@@ -25,7 +25,10 @@ function isUser(req, res, next) {
     if (req.session.user && req.session.user === "user") {
         return next();
     }
-    req.flash("error","Vous n'avez pas les autorisations nécessaires pour accéder à cette page.");
+    req.flash(
+        "error",
+        "Vous n'avez pas les autorisations nécessaires pour accéder à cette page."
+    );
     res.redirect("/login");
 }
 
@@ -68,6 +71,15 @@ router.get("/usersTable", isAuthenticated, isUser, (req, res) => {
     Article.find()
         .then(result => {
             res.render("../views/users/usersTables", { data: result });
+        })
+        .catch(err => {
+            console.log(err);
+        });
+});
+router.get("/cmd", isAuthenticated, isUser, (req, res) => {
+    Article.find()
+        .then(result => {
+            res.render("../views/users/cmd.ejs", { data: result });
         })
         .catch(err => {
             console.log(err);

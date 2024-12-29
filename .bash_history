@@ -25,3 +25,20 @@ git add .
 git commit -m "change index"
 git push
 exit
+nodemon index.js
+git add .
+git commit -m "change"
+git push
+exit
+cd "/sdcard/html css js/project table/dist"
+git init
+cd "/sdcard/html css js/project table/dist"
+git add .
+nodemon index.js
+exit
+npm start
+nodemon index.js
+npm i init
+nodemon index.js
+clear
+nodemon index.js
