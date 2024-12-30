@@ -51,7 +51,7 @@ xmlns="http://www.w3.org/2000/svg"
 <span class="button__text">Excel</span>
 </button>
 <button class="button print" onclick="printTable()">
-<i class="fa-solid fa-print"></i>PrintTable</button>
+<i class="fa-solid fa-print"></i>Print</button>
 <button class="button save" onclick="saveTable()">
 <i class="fa-solid fa-floppy-disk"></i>Save</button>
 </div>
@@ -78,15 +78,17 @@ class="table table-bordered border-primary  container"
 <th id="lib">ReF</thid>
 <th id="lib">Stock</t>
 </tr>
-
+<% for (var x of data) {
+%>
 <tr>
-<td id="tbl"><%= x.libelle %></td >  
-<td id="tbl"><%= x.gencode %></td>
-<td id="cmd" onclick="editCell(this)">0</td>
-<td id="tbl"><%= x.reffourni %></t> 
-<td id="stk"><%= x.stock %></td >
-</tr >
- 
+<td><%= x.libelle %></td>
+<td><%= x.gencode %></td>
+<td><%= x.anpf %></td>
+<td><%= x.reffourni %></td>
+<td><%= x.stock %></td>
+</tr>
+<%
+} %>
 
 </thead>
 </tbody>
