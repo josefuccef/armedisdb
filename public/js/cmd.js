@@ -7,7 +7,6 @@ window.onload = function () {
 
         // إعادة تعيين خاصية التعديل للخلايا
         const cells = document.querySelectorAll("#myTable td");
-        
     }
 };
 
@@ -40,7 +39,7 @@ function clearLocalStorage() {
 function editCell(cell) {
     const currentValue = cell.textContent; // قيمة الخلية الحالية
     const input = document.createElement("input"); // إنشاء عنصر إدخال
-    input.type = "text";
+    input.type = "Number";
     input.value = currentValue;
 
     // استبدال النص بالعنصر الإدخال
@@ -112,4 +111,3 @@ function searchTable() {
         rows[i].style.display = found ? "" : "none";
     }
 }
-
