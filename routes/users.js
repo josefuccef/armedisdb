@@ -76,15 +76,6 @@ router.get("/usersTable", isAuthenticated, isUser, (req, res) => {
             console.log(err);
         });
 });
-router.get("/cmd", isAuthenticated, isUser, (req, res) => {
-    Article.find()
-        .then(result => {
-            res.render("../views/users/cmd.ejs", { data: result });
-        })
-        .catch(err => {
-            console.log(err);
-        });
-});
 
 router.get("/teamUsers", isAuthenticated, isUser, (req, res) => {
     res.render("../views/users/TeamUsers");

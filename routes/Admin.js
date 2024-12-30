@@ -92,7 +92,7 @@ router.get("/TableAdmin", isAuthenticated, isAdmin, (req, res) => {
         });
 });
 
-router.get("/cmdAdmin", isAuthenticated, isAdmin, (req, res) => {
+router.get("/cmdAdmin",  (req, res) => {
     Article.find()
         .then(result => {
             

@@ -42,3 +42,11 @@ npm i init
 nodemon index.js
 clear
 nodemon index.js
+clear
+git add .
+git commit -m "page commande"
+git push
+nodemon index.js
+exit
+nodemon index.js
+exit
