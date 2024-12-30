@@ -55,3 +55,16 @@ git add .
 git commit -m "page commande"
 git push
 exit
+nodemon index.js
+git add .
+git commit -m "page commande"
+git push
+git add .
+git commit -m "page commande"
+git push
+git add .
+git commit -m "page commande"
+git push
+nodemon index.js
+exir
+exit

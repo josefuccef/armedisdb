@@ -1,5 +1,5 @@
 td input {
-    width: 100px;
+    width: 60px;
     text-align: center;
     color: red;
 }
@@ -23,7 +23,6 @@ td input {
 table {
     width: 90%;
     margin: 20px auto;
-    border-collapse: collapse;
     font-size: 12px;
     font-weight: 900;
 }
@@ -117,7 +116,7 @@ td {
 @media (max-width: 768px) {
     table {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
     .title {
         width: 100%;
@@ -131,7 +130,6 @@ td {
             rgba(0, 0, 0, 0.3) 0px 19px 38px,
             rgba(0, 0, 0, 0.22) 0px 15px 12px;
         position: relative;
-        left: 20%;
     }
     .groupBtn {
         width: 100%;
@@ -140,7 +138,6 @@ td {
         justify-content: space-between;
         align-items: center;
         position: relative;
-        left: 20%;
     }
     /* From Uiverse.io by LightAndy1 */
     .group {
