@@ -50,3 +50,8 @@ nodemon index.js
 exit
 nodemon index.js
 exit
+nodemon index.js
+git add .
+git commit -m "page commande"
+git push
+exit
