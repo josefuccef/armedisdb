@@ -1,5 +1,5 @@
 td input {
-    width: 60px;
+    width: 50px;
     text-align: center;
     color: red;
 }
@@ -20,7 +20,7 @@ td input {
     font-size: 16px;
 }
 
-table {
+#myTable {
     width: 90%;
     margin: 20px auto;
     font-size: 12px;
@@ -119,7 +119,7 @@ td {
         width: 100%;
     }
     .title {
-        width: 100%;
+        width: 110%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -132,20 +132,15 @@ td {
         position: relative;
     }
     .groupBtn {
-        width: 100%;
+        width: 110%;
         margin-top: 50px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         position: relative;
     }
     /* From Uiverse.io by LightAndy1 */
-    .group {
-        display: flex;
-        line-height: 28px;
-        align-items: center;
-        position: relative;
-    }
+   
 }
 /* css file alert */
 

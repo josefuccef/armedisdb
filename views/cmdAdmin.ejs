@@ -25,7 +25,7 @@ crossorigin="anonymous"
 
 <!-- fin navbar -->
 <div class="container-fluid">
-<div class="groupBtn">
+<div class="groupBtn ">
 <button class="button clear" onclick="clearLocalStorage()">
 <i class="fa-solid fa-trash"></i>
 Clear
@@ -73,19 +73,19 @@ class="table table-bordered border-primary  container"
 <thead>
 <tr>
 <th id="lib">Libelle</th>
+<th id="cmd">Cmd</th>
 <th id="lib">GenCode</th>
-<th id="lib">Cmd</th>
+<th id="stk">Stock</t>
 <th id="lib">ReF</thid>
-<th id="lib">Stock</t>
 </tr>
 <% for (var x of data) {
 %>
 <tr>
 <td><%= x.libelle %></td>
+<td id="cmd" onclick="editCell(this)">0</td>
 <td><%= x.gencode %></td>
-<td><%= x.anpf %></td>
+<td id="stk"><%= x.stock %></td>
 <td><%= x.reffourni %></td>
-<td><%= x.stock %></td>
 </tr>
 <%
 } %>
