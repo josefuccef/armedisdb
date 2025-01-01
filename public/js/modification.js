@@ -37,3 +37,32 @@ let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
+
+// input chercher
+
+function searchTable() {
+  let input = document.getElementById('searchInput');
+  let filter = input.value.toUpperCase();
+  let table = document.getElementById('dataTable');
+  let tr = table.getElementsByTagName('tr');
+  
+  for (let i = 1; i < tr.length; i++) {
+    let td = tr[i].getElementsByTagName('td');
+    let found = false;
+    
+    for (let j = 0; j < td.length; j++) {
+      if (td[j]) {
+        if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+          found = true;
+          break;
+        }
+      }
+    }
+    
+    if (found) {
+      tr[i].style.display = "";
+    } else {
+      tr[i].style.display = "none";
+    }
+  }
+}

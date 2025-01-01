@@ -68,3 +68,21 @@ git push
 nodemon index.js
 exir
 exit
+nodemon index.js
+exit
+termux-stup-storege
+termux-setup-storage
+ls
+touch t.txt
+ls
+mv t.txt /sdcard
+cd sdcard
+cd /sdcard
+ls
+cd ..
+ls
+exit
+nodemon index.js
+ls
+nodemon index.js
+cp /storage/emulated/0/Download/photo /data/data/com.termux/files/home/
